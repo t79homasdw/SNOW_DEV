@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>2</order>
+        <published_ref/>
+        <question display_value="Line Manager">754ead1b83341a100bf1c4d0deaad3b4</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 18:49:01</sys_created_on>
+        <sys_id>773cf99b83781a100bf1c4d0deaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bud Richman</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_773cf99b83781a100bf1c4d0deaad303</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 18:49:01</sys_updated_on>
+        <text>Bud Richman</text>
+        <value>46c6f9efa9fe198101ddf5eed9adf6e7</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=773cf99b83781a100bf1c4d0deaad303"/>
+</record_update>
