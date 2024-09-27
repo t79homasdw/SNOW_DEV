@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>408</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:31:03</sys_created_on>
+        <sys_id>bd6a651b83b01a100bf1c4d0deaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mary Maurizio</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_bd6a651b83b01a100bf1c4d0deaad31b</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:31:03</sys_updated_on>
+        <text>Mary Maurizio</text>
+        <value>Mary Maurizio</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=bd6a651b83b01a100bf1c4d0deaad31b"/>
+</record_update>
