@@ -92,14 +92,14 @@
         <sys_created_by>dthomas</sys_created_by>
         <sys_created_on>2024-09-27 17:22:28</sys_created_on>
         <sys_id>bb6865df83701a100bf1c4d0deaad3de</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Internal SSL Certificate</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
         <sys_update_name>sc_cat_item_producer_bb6865df83701a100bf1c4d0deaad3de</sys_update_name>
         <sys_updated_by>dthomas</sys_updated_by>
-        <sys_updated_on>2024-09-27 19:29:48</sys_updated_on>
+        <sys_updated_on>2024-09-27 19:36:15</sys_updated_on>
         <table_name>x_1541301_privat_0_request</table_name>
         <taxonomy_topic display_value="Risk and compliance">165b31ebf4500550f877f91bb76e1867</taxonomy_topic>
         <template/>
@@ -107,7 +107,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>5</version>
+        <version>6</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
