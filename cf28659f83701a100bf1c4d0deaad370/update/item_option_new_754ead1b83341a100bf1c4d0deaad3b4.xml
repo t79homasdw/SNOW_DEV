@@ -27,39 +27,38 @@
         <help_text/>
         <hidden>false</hidden>
         <include_none>false</include_none>
-        <instructions><![CDATA[<div><span title="Enter the name of the server the certificate will be installed.">Enter the name of the server the certificate will be installed.</span></div>
-<div> </div>]]></instructions>
+        <instructions/>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label/>
+        <lookup_label>manager</lookup_label>
         <lookup_price/>
-        <lookup_table/>
+        <lookup_table>sys_user</lookup_table>
         <lookup_unique>false</lookup_unique>
-        <lookup_value/>
+        <lookup_value>manager</lookup_value>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>question_0f20a3b9428e34204a6335742f6fc305</name>
-        <order>700</order>
+        <name>question_32fb6011a2fc04839533fa5f2269b66b</name>
+        <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Server Name</question_text>
-        <read_only>false</read_only>
+        <question_text>Line Manager</question_text>
+        <read_only>true</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_1541301_privat_0_request</record_producer_table>
-        <reference/>
+        <reference>sys_user</reference>
         <reference_qual/>
         <reference_qual_condition/>
-        <rich_text><![CDATA[Server Name]]></rich_text>
+        <rich_text><![CDATA[Line Manager]]></rich_text>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
 * `current`- GlideRecord produced by Record Producer
@@ -70,25 +69,25 @@
 */]]></save_script>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>true</show_help>
+        <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>dthomas</sys_created_by>
-        <sys_created_on>2024-09-27 17:34:02</sys_created_on>
-        <sys_id>e91ba51783b01a100bf1c4d0deaad379</sys_id>
+        <sys_created_on>2024-09-27 17:47:59</sys_created_on>
+        <sys_id>754ead1b83341a100bf1c4d0deaad3b4</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_name>Server Name</sys_name>
+        <sys_name>Line Manager</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
-        <sys_update_name>item_option_new_e91ba51783b01a100bf1c4d0deaad379</sys_update_name>
+        <sys_update_name>item_option_new_754ead1b83341a100bf1c4d0deaad3b4</sys_update_name>
         <sys_updated_by>dthomas</sys_updated_by>
-        <sys_updated_on>2024-09-27 17:52:15</sys_updated_on>
+        <sys_updated_on>2024-09-27 17:53:32</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>18</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -104,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=e91ba51783b01a100bf1c4d0deaad379"/>
-    <fx_price action="delete_multiple" query="id=e91ba51783b01a100bf1c4d0deaad379"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=754ead1b83341a100bf1c4d0deaad3b4"/>
+    <fx_price action="delete_multiple" query="id=754ead1b83341a100bf1c4d0deaad3b4"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>e91ba51783b01a100bf1c4d0deaad379</id>
+        <id>754ead1b83341a100bf1c4d0deaad3b4</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>dthomas</sys_created_by>
-        <sys_created_on>2024-09-27 17:34:02</sys_created_on>
-        <sys_id>691b619f83b01a100bf1c4d0deaad3e8</sys_id>
+        <sys_created_on>2024-09-27 17:47:59</sys_created_on>
+        <sys_id>794ead1b83341a100bf1c4d0deaad3b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dthomas</sys_updated_by>
-        <sys_updated_on>2024-09-27 17:34:02</sys_updated_on>
+        <sys_updated_on>2024-09-27 17:47:59</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -127,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>e91ba51783b01a100bf1c4d0deaad379</id>
+        <id>754ead1b83341a100bf1c4d0deaad3b4</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>dthomas</sys_created_by>
-        <sys_created_on>2024-09-27 17:34:02</sys_created_on>
-        <sys_id>211b619f83b01a100bf1c4d0deaad3e8</sys_id>
+        <sys_created_on>2024-09-27 17:47:59</sys_created_on>
+        <sys_id>314ead1b83341a100bf1c4d0deaad3b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dthomas</sys_updated_by>
-        <sys_updated_on>2024-09-27 17:34:02</sys_updated_on>
+        <sys_updated_on>2024-09-27 17:47:59</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
