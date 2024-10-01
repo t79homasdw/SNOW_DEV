@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>0</order>
+        <published_ref/>
+        <question display_value="Server Name">e91ba51783b01a100bf1c4d0deaad379</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:16:00</sys_created_on>
+        <sys_id>3c86f26883091a100bf1c4d0deaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CORP.ARCHCAPSERVICES.COM</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_3c86f26883091a100bf1c4d0deaad32b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:16:00</sys_updated_on>
+        <text>CORP.ARCHCAPSERVICES.COM</text>
+        <value>corp_archcapservices_com</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=3c86f26883091a100bf1c4d0deaad32b"/>
+</record_update>
