@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Virtual Resources">566c3007c3413000ed4860eb5bba8f7e</category>
+        <category display_value="Desktops">900682363731300054b6a3549dbe5d5f</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
@@ -92,14 +92,14 @@
         <sys_created_by>dthomas</sys_created_by>
         <sys_created_on>2024-09-27 17:22:28</sys_created_on>
         <sys_id>bb6865df83701a100bf1c4d0deaad3de</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Internal SSL Certificate</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
         <sys_update_name>sc_cat_item_producer_bb6865df83701a100bf1c4d0deaad3de</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-01 20:50:01</sys_updated_on>
+        <sys_updated_by>jjeffas</sys_updated_by>
+        <sys_updated_on>2024-10-01 21:18:50</sys_updated_on>
         <table_name>x_1541301_privat_0_request</table_name>
         <taxonomy_topic display_value="Risk and compliance">165b31ebf4500550f877f91bb76e1867</taxonomy_topic>
         <template/>
@@ -107,7 +107,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>12</version>
+        <version>14</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -127,9 +127,9 @@
         <sys_created_by>dthomas</sys_created_by>
         <sys_created_on>2024-09-27 17:22:28</sys_created_on>
         <sys_id>40786d1383b01a100bf1c4d0deaad360</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dthomas</sys_updated_by>
-        <sys_updated_on>2024-09-27 17:22:28</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jjeffas</sys_updated_by>
+        <sys_updated_on>2024-10-01 21:18:50</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
