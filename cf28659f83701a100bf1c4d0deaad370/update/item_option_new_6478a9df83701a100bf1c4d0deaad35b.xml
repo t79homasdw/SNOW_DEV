@@ -55,8 +55,8 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_1541301_privat_0_request</record_producer_table>
-        <reference/>
-        <reference_qual/>
+        <reference>sys_user</reference>
+        <reference_qual>manager.nameISNOTEMPTY</reference_qual>
         <reference_qual_condition/>
         <rich_text><![CDATA[Requested For]]></rich_text>
         <roles_to_use_also_request_for/>
@@ -77,17 +77,17 @@
         <sys_created_by>dthomas</sys_created_by>
         <sys_created_on>2024-09-27 17:22:31</sys_created_on>
         <sys_id>6478a9df83701a100bf1c4d0deaad35b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Requested For</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
         <sys_update_name>item_option_new_6478a9df83701a100bf1c4d0deaad35b</sys_update_name>
         <sys_updated_by>dthomas</sys_updated_by>
-        <sys_updated_on>2024-09-27 17:40:48</sys_updated_on>
+        <sys_updated_on>2024-10-07 21:49:28</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>5</type>
+        <type>8</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
