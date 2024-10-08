@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>432</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:31:04</sys_created_on>
+        <sys_id>fd6a651b83b01a100bf1c4d0deaad398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Misty Ericksen</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_fd6a651b83b01a100bf1c4d0deaad398</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:31:04</sys_updated_on>
+        <text>Misty Ericksen</text>
+        <value>Misty Ericksen</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=fd6a651b83b01a100bf1c4d0deaad398"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_fd6a651b83b01a100bf1c4d0deaad398</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>432</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:31:04</sys_created_on><sys_id>fd6a651b83b01a100bf1c4d0deaad398</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Misty Ericksen</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_fd6a651b83b01a100bf1c4d0deaad398</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:31:04</sys_updated_on><text>Misty Ericksen</text><value>Misty Ericksen</value></question_choice><fx_price action="delete_multiple" query="id=fd6a651b83b01a100bf1c4d0deaad398"/></record_update>]]></payload>
+        <payload_hash>-211414873</payload_hash>
+        <record_name>Misty Ericksen</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:52:57</sys_created_on>
+        <sys_id>ee6fa15783741a100bf1c4d0deaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349d4f340000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:52:57</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>a26fa15798741a1097353798c12bdbc4</update_guid>
+        <update_guid_history>a26fa15798741a1097353798c12bdbc4:-211414873,4cdc655f5ff01a10b16fa3168f43a9a7:1945652777,80dc655fd2f01a10b0db10efc181a7a5:-1399430684</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Misty Ericksen">5dc542aa834d12100bf1c4d0deaad33b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:54</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>52c007f5c98744d683395b4e28382d29</sys_id>
+        <sys_metadata>fd6a651b83b01a100bf1c4d0deaad398</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Misty Ericksen</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_fd6a651b83b01a100bf1c4d0deaad398</sys_update_name>
+        <sys_update_version display_value="question_choice_fd6a651b83b01a100bf1c4d0deaad398">ee6fa15783741a100bf1c4d0deaad3c4</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

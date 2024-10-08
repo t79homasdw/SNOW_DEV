@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_creatorstudio_request_app_config">
+    <sn_creatorstudio_request_app_config action="INSERT_OR_UPDATE">
+        <color>grouped-blue</color>
+        <icon>vacation-outline</icon>
+        <is_deleting>false</is_deleting>
+        <name>Private SSL</name>
+        <request_table>x_1541301_privat_0_request</request_table>
+        <sys_class_name>sn_creatorstudio_request_app_config</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:21:24</sys_created_on>
+        <sys_id>d038699f83701a100bf1c4d0deaad339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>false</sys_name>
+        <sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>sn_creatorstudio_request_app_config_d038699f83701a100bf1c4d0deaad339</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:21:24</sys_updated_on>
+    </sn_creatorstudio_request_app_config>
+</record_update>

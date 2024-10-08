@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>435</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:31:04</sys_created_on>
+        <sys_id>f56a651b83b01a100bf1c4d0deaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mitzi Ihenyen</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_f56a651b83b01a100bf1c4d0deaad39c</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:31:04</sys_updated_on>
+        <text>Mitzi Ihenyen</text>
+        <value>Mitzi Ihenyen</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=f56a651b83b01a100bf1c4d0deaad39c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_f56a651b83b01a100bf1c4d0deaad39c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>435</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:31:04</sys_created_on><sys_id>f56a651b83b01a100bf1c4d0deaad39c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mitzi Ihenyen</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_f56a651b83b01a100bf1c4d0deaad39c</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:31:04</sys_updated_on><text>Mitzi Ihenyen</text><value>Mitzi Ihenyen</value></question_choice><fx_price action="delete_multiple" query="id=f56a651b83b01a100bf1c4d0deaad39c"/></record_update>]]></payload>
+        <payload_hash>1576882805</payload_hash>
+        <record_name>Mitzi Ihenyen</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:52:30</sys_created_on>
+        <sys_id>c45fa9d383741a100bf1c4d0deaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349ce63c0000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:52:30</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>885fa9d3da741a10485a4cce6826c527</update_guid>
+        <update_guid_history>885fa9d3da741a10485a4cce6826c527:1576882805,f7cce15f2af01a1038c3da2a8040e1fb:-68732941,3fcce15f02f01a103433e5ef97c8a3f8:-1527159015</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Mitzi Ihenyen">c9c5ce6a834d12100bf1c4d0deaad34b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:52</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>8d0ab4c8fec34e1e904180329ef2e504</sys_id>
+        <sys_metadata>f56a651b83b01a100bf1c4d0deaad39c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mitzi Ihenyen</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_f56a651b83b01a100bf1c4d0deaad39c</sys_update_name>
+        <sys_update_version display_value="question_choice_f56a651b83b01a100bf1c4d0deaad39c">c45fa9d383741a100bf1c4d0deaad328</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

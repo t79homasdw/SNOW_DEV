@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>182</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:30:58</sys_created_on>
+        <sys_id>d46a211b83b01a100bf1c4d0deaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Elisa Gracely</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_d46a211b83b01a100bf1c4d0deaad329</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:30:58</sys_updated_on>
+        <text>Elisa Gracely</text>
+        <value>Elisa Gracely</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=d46a211b83b01a100bf1c4d0deaad329"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_d46a211b83b01a100bf1c4d0deaad329</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>182</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:30:58</sys_created_on><sys_id>d46a211b83b01a100bf1c4d0deaad329</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Elisa Gracely</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_d46a211b83b01a100bf1c4d0deaad329</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:30:58</sys_updated_on><text>Elisa Gracely</text><value>Elisa Gracely</value></question_choice><fx_price action="delete_multiple" query="id=d46a211b83b01a100bf1c4d0deaad329"/></record_update>]]></payload>
+        <payload_hash>-347975828</payload_hash>
+        <record_name>Elisa Gracely</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:52:38</sys_created_on>
+        <sys_id>f15fa11783741a100bf1c4d0deaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349d05d00000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:52:38</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>b55fa11754741a104097150f353c6a21</update_guid>
+        <update_guid_history>b55fa11754741a104097150f353c6a21:-347975828,0acc6d1f63f01a10a41745fdf1c1564d:1628471082,06cc6d1f71f01a10ec8ea05b2ae32d4a:1495503982</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Elisa Gracely">d3b50a6a834d12100bf1c4d0deaad36c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:45</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>1560b7f370cc45d685fdcb5a9136c684</sys_id>
+        <sys_metadata>d46a211b83b01a100bf1c4d0deaad329</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Elisa Gracely</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_d46a211b83b01a100bf1c4d0deaad329</sys_update_name>
+        <sys_update_version display_value="question_choice_d46a211b83b01a100bf1c4d0deaad329">f15fa11783741a100bf1c4d0deaad322</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

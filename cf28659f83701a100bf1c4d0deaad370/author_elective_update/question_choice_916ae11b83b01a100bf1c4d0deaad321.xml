@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>317</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:31:01</sys_created_on>
+        <sys_id>916ae11b83b01a100bf1c4d0deaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Keisha Ransonet</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_916ae11b83b01a100bf1c4d0deaad321</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:31:01</sys_updated_on>
+        <text>Keisha Ransonet</text>
+        <value>Keisha Ransonet</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=916ae11b83b01a100bf1c4d0deaad321"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_916ae11b83b01a100bf1c4d0deaad321</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>317</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:31:01</sys_created_on><sys_id>916ae11b83b01a100bf1c4d0deaad321</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Keisha Ransonet</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_916ae11b83b01a100bf1c4d0deaad321</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:31:01</sys_updated_on><text>Keisha Ransonet</text><value>Keisha Ransonet</value></question_choice><fx_price action="delete_multiple" query="id=916ae11b83b01a100bf1c4d0deaad321"/></record_update>]]></payload>
+        <payload_hash>-372883186</payload_hash>
+        <record_name>Keisha Ransonet</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:53:27</sys_created_on>
+        <sys_id>798f2d9783741a100bf1c4d0deaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349dc3650000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:53:27</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>f98f2d972b741a10ff3bd910ba1b459f</update_guid>
+        <update_guid_history>f98f2d972b741a10ff3bd910ba1b459f:-372883186,d7bc251ff1f01a10d74ce7beddb4412c:164897740,dbbc251f6cf01a10152deed71d180829:-588664548</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Keisha Ransonet">98b50e2a834d12100bf1c4d0deaad322</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:33</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>14d0a6f2389342d882bca9b06f77e439</sys_id>
+        <sys_metadata>916ae11b83b01a100bf1c4d0deaad321</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Keisha Ransonet</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_916ae11b83b01a100bf1c4d0deaad321</sys_update_name>
+        <sys_update_version display_value="question_choice_916ae11b83b01a100bf1c4d0deaad321">798f2d9783741a100bf1c4d0deaad3a0</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_system_filter">
+    <sys_email_system_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <default>false</default>
+        <email_address_filters/>
+        <name>Send_Email</name>
+        <short_description/>
+        <sys_class_name>sys_email_system_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-05 16:28:02</sys_created_on>
+        <sys_id>e398e6b58309d6900bf1c4d0deaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send_Email</sys_name>
+        <sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>sys_email_system_filter_e398e6b58309d6900bf1c4d0deaad32d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-05 16:28:02</sys_updated_on>
+        <type>outbound</type>
+    </sys_email_system_filter>
+</record_update>

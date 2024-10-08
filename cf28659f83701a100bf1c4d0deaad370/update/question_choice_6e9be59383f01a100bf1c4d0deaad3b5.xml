@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
         <inactive>false</inactive>
-        <misc>0</misc>
         <order>2</order>
         <published_ref/>
         <question display_value="BU Requested For">a878ed1383b01a100bf1c4d0deaad331</question>
-        <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>dthomas</sys_created_by>
         <sys_created_on>2024-09-27 17:36:18</sys_created_on>

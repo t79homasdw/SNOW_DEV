@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2024-10-05 15:45:43</change_date>
+        <changed_by display_value="Daniel Thomas">62673cc783b452100bf1c4d0deaad398</changed_by>
+        <content display_value="Review Flow Designer access settings">b17959a80f382010310be3d1df767e6e</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-05 15:45:43</sys_created_on>
+        <sys_id>600f1eb18345d6900bf1c4d0deaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2024-10-05 15:45:43</sys_name>
+        <sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>gsw_change_log_600f1eb18345d6900bf1c4d0deaad374</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-05 15:45:43</sys_updated_on>
+        <type>4</type>
+    </gsw_change_log>
+</record_update>

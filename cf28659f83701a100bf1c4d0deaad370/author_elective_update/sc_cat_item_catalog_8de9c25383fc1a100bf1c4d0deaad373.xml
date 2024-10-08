@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Internal SSL Certificate">1a490a57837c1a100bf1c4d0deaad3b1</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 19:48:38</sys_created_on>
+        <sys_id>8de9c25383fc1a100bf1c4d0deaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Internal SSL Certificate</sys_name>
+        <sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_8de9c25383fc1a100bf1c4d0deaad373</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 19:48:38</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>sc_cat_item_catalog_8de9c25383fc1a100bf1c4d0deaad373</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Internal SSL Certificate">1a490a57837c1a100bf1c4d0deaad3b1</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 19:48:38</sys_created_on><sys_id>8de9c25383fc1a100bf1c4d0deaad373</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Internal SSL Certificate</sys_name><sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>sc_cat_item_catalog_8de9c25383fc1a100bf1c4d0deaad373</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 19:48:38</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>232960716</payload_hash>
+        <record_name>Service Catalog.Internal SSL Certificate</record_name>
+        <reverted_from/>
+        <source>30e9469b837c1a100bf1c4d0deaad392</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 19:48:38</sys_created_on>
+        <sys_id>05e9c25383fc1a100bf1c4d0deaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192350739270000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 19:48:38</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>45e9c25385fc1a10fda8e53c72236684</update_guid>
+        <update_guid_history>45e9c25385fc1a10fda8e53c72236684:232960716</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Internal SSL Certificate">783a825783fc1a100bf1c4d0deaad3fc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 19:49:59</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>4d90c97ec8cf42eba42b262359985201</sys_id>
+        <sys_metadata>8de9c25383fc1a100bf1c4d0deaad373</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Internal SSL Certificate</sys_name>
+        <sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package>
+        <sys_parent display_value="">1a490a57837c1a100bf1c4d0deaad3b1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_8de9c25383fc1a100bf1c4d0deaad373</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_8de9c25383fc1a100bf1c4d0deaad373">05e9c25383fc1a100bf1c4d0deaad385</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 19:49:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

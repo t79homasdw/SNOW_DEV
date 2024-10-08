@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_1541301_privat_0.svc_pipeline</id>
+        <is_internal>false</is_internal>
+        <multiple_connections>true</multiple_connections>
+        <name>svc.pipeline</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 19:33:51</sys_created_on>
+        <sys_id>da3c62e483051a100bf1c4d0deaad3c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1541301_privat_0.svc_pipeline</sys_name>
+        <sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>sys_alias_da3c62e483051a100bf1c4d0deaad3c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 19:42:54</sys_updated_on>
+        <type>credential</type>
+    </sys_alias>
+</record_update>

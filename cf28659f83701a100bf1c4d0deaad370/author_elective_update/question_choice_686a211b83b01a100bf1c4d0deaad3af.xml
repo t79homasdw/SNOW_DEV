@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>207</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:30:58</sys_created_on>
+        <sys_id>686a211b83b01a100bf1c4d0deaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Forest Orea</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_686a211b83b01a100bf1c4d0deaad3af</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:30:58</sys_updated_on>
+        <text>Forest Orea</text>
+        <value>Forest Orea</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=686a211b83b01a100bf1c4d0deaad3af"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_686a211b83b01a100bf1c4d0deaad3af</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>207</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:30:58</sys_created_on><sys_id>686a211b83b01a100bf1c4d0deaad3af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Forest Orea</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_686a211b83b01a100bf1c4d0deaad3af</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:30:58</sys_updated_on><text>Forest Orea</text><value>Forest Orea</value></question_choice><fx_price action="delete_multiple" query="id=686a211b83b01a100bf1c4d0deaad3af"/></record_update>]]></payload>
+        <payload_hash>-511673711</payload_hash>
+        <record_name>Forest Orea</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:53:26</sys_created_on>
+        <sys_id>618f2d9783741a100bf1c4d0deaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349dc0f00000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:53:26</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>e18f2d97de741a105745221720792625</update_guid>
+        <update_guid_history>e18f2d97de741a105745221720792625:-511673711,65bcaddbd6f01a10bca262bb535bc8f1:9122383,a9bcaddbf1f01a102a438eb4075ce7ee:491503068</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Forest Orea">bea5062a834d12100bf1c4d0deaad36f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:27</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>22be2b8d31f1410084cd8b75bdd90000</sys_id>
+        <sys_metadata>686a211b83b01a100bf1c4d0deaad3af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Forest Orea</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_686a211b83b01a100bf1c4d0deaad3af</sys_update_name>
+        <sys_update_version display_value="question_choice_686a211b83b01a100bf1c4d0deaad3af">618f2d9783741a100bf1c4d0deaad326</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

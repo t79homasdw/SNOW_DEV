@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>209</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:30:58</sys_created_on>
+        <sys_id>ec6a211b83b01a100bf1c4d0deaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Francis Soo</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_ec6a211b83b01a100bf1c4d0deaad3b2</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:30:58</sys_updated_on>
+        <text>Francis Soo</text>
+        <value>Francis Soo</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=ec6a211b83b01a100bf1c4d0deaad3b2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_ec6a211b83b01a100bf1c4d0deaad3b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>209</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:30:58</sys_created_on><sys_id>ec6a211b83b01a100bf1c4d0deaad3b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Francis Soo</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_ec6a211b83b01a100bf1c4d0deaad3b2</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:30:58</sys_updated_on><text>Francis Soo</text><value>Francis Soo</value></question_choice><fx_price action="delete_multiple" query="id=ec6a211b83b01a100bf1c4d0deaad3b2"/></record_update>]]></payload>
+        <payload_hash>-1913138294</payload_hash>
+        <record_name>Francis Soo</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:52:44</sys_created_on>
+        <sys_id>535fa51783741a100bf1c4d0deaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349d1a760000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:52:44</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>175fa5171e741a105b913b7fa61aa993</update_guid>
+        <update_guid_history>175fa5171e741a105b913b7fa61aa993:-1913138294,dbcc615f62f01a105e742b4d008dc473:1507634632,13cc615f41f01a10ca0cb28474167f71:-332084354</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Francis Soo">60c50e6a834d12100bf1c4d0deaad3fa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:50</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>3cdaef8e32cc44c4a58f592daa6fb4a4</sys_id>
+        <sys_metadata>ec6a211b83b01a100bf1c4d0deaad3b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Francis Soo</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_ec6a211b83b01a100bf1c4d0deaad3b2</sys_update_name>
+        <sys_update_version display_value="question_choice_ec6a211b83b01a100bf1c4d0deaad3b2">535fa51783741a100bf1c4d0deaad394</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

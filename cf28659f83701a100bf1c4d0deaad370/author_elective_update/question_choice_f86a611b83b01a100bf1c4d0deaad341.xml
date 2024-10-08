@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>240</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:30:59</sys_created_on>
+        <sys_id>f86a611b83b01a100bf1c4d0deaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Helena Suermann</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_f86a611b83b01a100bf1c4d0deaad341</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:30:59</sys_updated_on>
+        <text>Helena Suermann</text>
+        <value>Helena Suermann</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=f86a611b83b01a100bf1c4d0deaad341"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_f86a611b83b01a100bf1c4d0deaad341</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>240</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:30:59</sys_created_on><sys_id>f86a611b83b01a100bf1c4d0deaad341</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Helena Suermann</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_f86a611b83b01a100bf1c4d0deaad341</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:30:59</sys_updated_on><text>Helena Suermann</text><value>Helena Suermann</value></question_choice><fx_price action="delete_multiple" query="id=f86a611b83b01a100bf1c4d0deaad341"/></record_update>]]></payload>
+        <payload_hash>-64327004</payload_hash>
+        <record_name>Helena Suermann</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:53:15</sys_created_on>
+        <sys_id>cf7fa19783741a100bf1c4d0deaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349d96b60000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:53:15</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>837fa19739741a105d78bd730fa1a489</update_guid>
+        <update_guid_history>837fa19739741a105d78bd730fa1a489:-64327004,ffcc255f4ff01a108cb975e4ae8a97bb:-747569246,fbcc255fecf01a1017706e8bd8489eb9:1160974289</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Helena Suermann">45c502aa834d12100bf1c4d0deaad320</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:53</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>753a659f6c274cb086ca1e2184a67890</sys_id>
+        <sys_metadata>f86a611b83b01a100bf1c4d0deaad341</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Helena Suermann</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_f86a611b83b01a100bf1c4d0deaad341</sys_update_name>
+        <sys_update_version display_value="question_choice_f86a611b83b01a100bf1c4d0deaad341">cf7fa19783741a100bf1c4d0deaad389</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
