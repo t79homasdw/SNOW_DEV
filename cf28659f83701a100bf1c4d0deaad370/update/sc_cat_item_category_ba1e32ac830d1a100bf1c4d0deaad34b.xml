@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Internal SSL Certificate">bb6865df83701a100bf1c4d0deaad3de</sc_cat_item>
+        <sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:49:11</sys_created_on>
+        <sys_id>ba1e32ac830d1a100bf1c4d0deaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Internal SSL Certificate</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>sc_cat_item_category_ba1e32ac830d1a100bf1c4d0deaad34b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:49:11</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

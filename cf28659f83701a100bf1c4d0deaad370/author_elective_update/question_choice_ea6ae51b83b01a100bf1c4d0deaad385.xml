@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>526</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:31:06</sys_created_on>
+        <sys_id>ea6ae51b83b01a100bf1c4d0deaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Roxie Varenhorst</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_ea6ae51b83b01a100bf1c4d0deaad385</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:31:06</sys_updated_on>
+        <text>Roxie Varenhorst</text>
+        <value>Roxie Varenhorst</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=ea6ae51b83b01a100bf1c4d0deaad385"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_ea6ae51b83b01a100bf1c4d0deaad385</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>526</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:31:06</sys_created_on><sys_id>ea6ae51b83b01a100bf1c4d0deaad385</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Roxie Varenhorst</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_ea6ae51b83b01a100bf1c4d0deaad385</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:31:06</sys_updated_on><text>Roxie Varenhorst</text><value>Roxie Varenhorst</value></question_choice><fx_price action="delete_multiple" query="id=ea6ae51b83b01a100bf1c4d0deaad385"/></record_update>]]></payload>
+        <payload_hash>-548086410</payload_hash>
+        <record_name>Roxie Varenhorst</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:53:29</sys_created_on>
+        <sys_id>9a8fad9783741a100bf1c4d0deaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349dcab90000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:53:29</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>5e8fad97c0741a10f2dbdd172e64ba3d</update_guid>
+        <update_guid_history>5e8fad97c0741a10f2dbdd172e64ba3d:-548086410,c3cc215faaf01a1046cbe31b44b076cd:-216690184,cfcc215fd0f01a1092b5c6b748717fca:1748020636</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Roxie Varenhorst">1cc50e6a834d12100bf1c4d0deaad39e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:49</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>1a9831083e604a479d8beba8fc23b551</sys_id>
+        <sys_metadata>ea6ae51b83b01a100bf1c4d0deaad385</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Roxie Varenhorst</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_ea6ae51b83b01a100bf1c4d0deaad385</sys_update_name>
+        <sys_update_version display_value="question_choice_ea6ae51b83b01a100bf1c4d0deaad385">9a8fad9783741a100bf1c4d0deaad33e</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

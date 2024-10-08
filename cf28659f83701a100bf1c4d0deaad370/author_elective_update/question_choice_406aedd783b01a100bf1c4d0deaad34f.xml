@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>149</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:30:57</sys_created_on>
+        <sys_id>406aedd783b01a100bf1c4d0deaad34f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Denise Speegle</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_406aedd783b01a100bf1c4d0deaad34f</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:30:57</sys_updated_on>
+        <text>Denise Speegle</text>
+        <value>Denise Speegle</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=406aedd783b01a100bf1c4d0deaad34f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_406aedd783b01a100bf1c4d0deaad34f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>149</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:30:57</sys_created_on><sys_id>406aedd783b01a100bf1c4d0deaad34f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Denise Speegle</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_406aedd783b01a100bf1c4d0deaad34f</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:30:57</sys_updated_on><text>Denise Speegle</text><value>Denise Speegle</value></question_choice><fx_price action="delete_multiple" query="id=406aedd783b01a100bf1c4d0deaad34f"/></record_update>]]></payload>
+        <payload_hash>485167487</payload_hash>
+        <record_name>Denise Speegle</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:53:03</sys_created_on>
+        <sys_id>007fe55783741a100bf1c4d0deaad3db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349d66610000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:53:03</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>c07fe557fd741a1055fed719a7bdccda</update_guid>
+        <update_guid_history>c07fe557fd741a1055fed719a7bdccda:485167487,5cbca9dbc9f01a1049c24eb0a7bc392e:112147265,90bca9dbe8f01a108e978df298fca32c:-907378511</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Denise Speegle">11a54ee6834d12100bf1c4d0deaad3eb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:21</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>9781a55f4dd04c60aab1b77882983210</sys_id>
+        <sys_metadata>406aedd783b01a100bf1c4d0deaad34f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Denise Speegle</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_406aedd783b01a100bf1c4d0deaad34f</sys_update_name>
+        <sys_update_version display_value="question_choice_406aedd783b01a100bf1c4d0deaad34f">007fe55783741a100bf1c4d0deaad3db</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>104</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:30:55</sys_created_on>
+        <sys_id>f35aadd783b01a100bf1c4d0deaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Chris Harris</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_f35aadd783b01a100bf1c4d0deaad36b</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:30:55</sys_updated_on>
+        <text>Chris Harris</text>
+        <value>Chris Harris</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=f35aadd783b01a100bf1c4d0deaad36b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_f35aadd783b01a100bf1c4d0deaad36b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>104</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:30:55</sys_created_on><sys_id>f35aadd783b01a100bf1c4d0deaad36b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Chris Harris</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_f35aadd783b01a100bf1c4d0deaad36b</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:30:55</sys_updated_on><text>Chris Harris</text><value>Chris Harris</value></question_choice><fx_price action="delete_multiple" query="id=f35aadd783b01a100bf1c4d0deaad36b"/></record_update>]]></payload>
+        <payload_hash>389688889</payload_hash>
+        <record_name>Chris Harris</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:53:15</sys_created_on>
+        <sys_id>477fa19783741a100bf1c4d0deaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349d96540000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:53:15</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>0b7fa1973d741a10f71fa969ae589872</update_guid>
+        <update_guid_history>0b7fa1973d741a10f71fa969ae589872:389688889,6bcce15f3df01a100dcac1b1a95c95a3:-414479685,27cce15fa5f01a1038a05cf2a1a1dda1:801059174</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Chris Harris">f0c5ce6a834d12100bf1c4d0deaad303</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:52</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>131338384e674a3881e2732562f28444</sys_id>
+        <sys_metadata>f35aadd783b01a100bf1c4d0deaad36b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Chris Harris</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_f35aadd783b01a100bf1c4d0deaad36b</sys_update_name>
+        <sys_update_version display_value="question_choice_f35aadd783b01a100bf1c4d0deaad36b">477fa19783741a100bf1c4d0deaad373</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

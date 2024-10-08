@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>632</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:31:09</sys_created_on>
+        <sys_id>cb6a691b83b01a100bf1c4d0deaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Zane Sulikowski</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_cb6a691b83b01a100bf1c4d0deaad3ee</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:31:09</sys_updated_on>
+        <text>Zane Sulikowski</text>
+        <value>Zane Sulikowski</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=cb6a691b83b01a100bf1c4d0deaad3ee"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_cb6a691b83b01a100bf1c4d0deaad3ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>632</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:31:09</sys_created_on><sys_id>cb6a691b83b01a100bf1c4d0deaad3ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Zane Sulikowski</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_cb6a691b83b01a100bf1c4d0deaad3ee</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:31:09</sys_updated_on><text>Zane Sulikowski</text><value>Zane Sulikowski</value></question_choice><fx_price action="delete_multiple" query="id=cb6a691b83b01a100bf1c4d0deaad3ee"/></record_update>]]></payload>
+        <payload_hash>797789016</payload_hash>
+        <record_name>Zane Sulikowski</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:53:24</sys_created_on>
+        <sys_id>018f699783741a100bf1c4d0deaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349db6be0000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:53:24</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>c18f6997eb741a1016e571466b3605bf</update_guid>
+        <update_guid_history>c18f6997eb741a1016e571466b3605bf:797789016,a1cce91ff6f01a1091e4de82c4cd00e9:1658636566,69cce91f56f01a100c751dfb144683e5:-185129256</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Zane Sulikowski">f2b5866a834d12100bf1c4d0deaad3bc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:43</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>737e01542b794776b9d169dcd0b00fa1</sys_id>
+        <sys_metadata>cb6a691b83b01a100bf1c4d0deaad3ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Zane Sulikowski</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_cb6a691b83b01a100bf1c4d0deaad3ee</sys_update_name>
+        <sys_update_version display_value="question_choice_cb6a691b83b01a100bf1c4d0deaad3ee">018f699783741a100bf1c4d0deaad3c0</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

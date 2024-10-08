@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>462</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:31:05</sys_created_on>
+        <sys_id>066aa51b83b01a100bf1c4d0deaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patty Bernasconi</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_066aa51b83b01a100bf1c4d0deaad328</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:31:05</sys_updated_on>
+        <text>Patty Bernasconi</text>
+        <value>Patty Bernasconi</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=066aa51b83b01a100bf1c4d0deaad328"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_066aa51b83b01a100bf1c4d0deaad328</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>462</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:31:05</sys_created_on><sys_id>066aa51b83b01a100bf1c4d0deaad328</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Patty Bernasconi</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_066aa51b83b01a100bf1c4d0deaad328</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:31:05</sys_updated_on><text>Patty Bernasconi</text><value>Patty Bernasconi</value></question_choice><fx_price action="delete_multiple" query="id=066aa51b83b01a100bf1c4d0deaad328"/></record_update>]]></payload>
+        <payload_hash>303253880</payload_hash>
+        <record_name>Patty Bernasconi</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:52:53</sys_created_on>
+        <sys_id>a56fad1783741a100bf1c4d0deaad3f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349d3f610000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:52:53</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>ed6fad1788741a10a1be961612478ba6</update_guid>
+        <update_guid_history>ed6fad1788741a10a1be961612478ba6:303253880,61ac61dbeaf01a10761d32b9dab7c5b8:-2112515782,edac61db93f01a10d4a85651f0fa7cb4:358857257</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Patty Bernasconi">b69582e6834d12100bf1c4d0deaad3b2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:10</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>d5a9243b0d8445e8bf35e799b0d440e4</sys_id>
+        <sys_metadata>066aa51b83b01a100bf1c4d0deaad328</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patty Bernasconi</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_066aa51b83b01a100bf1c4d0deaad328</sys_update_name>
+        <sys_update_version display_value="question_choice_066aa51b83b01a100bf1c4d0deaad328">a56fad1783741a100bf1c4d0deaad3f2</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

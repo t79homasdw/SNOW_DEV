@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>331</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:31:02</sys_created_on>
+        <sys_id>516ae11b83b01a100bf1c4d0deaad355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kurtis Asberry</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_516ae11b83b01a100bf1c4d0deaad355</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:31:02</sys_updated_on>
+        <text>Kurtis Asberry</text>
+        <value>Kurtis Asberry</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=516ae11b83b01a100bf1c4d0deaad355"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_516ae11b83b01a100bf1c4d0deaad355</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>331</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:31:02</sys_created_on><sys_id>516ae11b83b01a100bf1c4d0deaad355</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Kurtis Asberry</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_516ae11b83b01a100bf1c4d0deaad355</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:31:02</sys_updated_on><text>Kurtis Asberry</text><value>Kurtis Asberry</value></question_choice><fx_price action="delete_multiple" query="id=516ae11b83b01a100bf1c4d0deaad355"/></record_update>]]></payload>
+        <payload_hash>1619083939</payload_hash>
+        <record_name>Kurtis Asberry</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:52:32</sys_created_on>
+        <sys_id>945f2dd383741a100bf1c4d0deaad327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349cec710000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:52:32</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>585f2dd3e7741a106c7a11856727a126</update_guid>
+        <update_guid_history>585f2dd3e7741a106c7a11856727a126:1619083939,38bc2ddbf6f01a102cbf2104352e631d:1311343269,f0bc2ddb97f01a109881795f23b1ff1a:1935428766</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Kurtis Asberry">31a5022a834d12100bf1c4d0deaad34f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:23</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>10151f437acf46b095b2f001246d3a84</sys_id>
+        <sys_metadata>516ae11b83b01a100bf1c4d0deaad355</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kurtis Asberry</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_516ae11b83b01a100bf1c4d0deaad355</sys_update_name>
+        <sys_update_version display_value="question_choice_516ae11b83b01a100bf1c4d0deaad355">945f2dd383741a100bf1c4d0deaad327</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

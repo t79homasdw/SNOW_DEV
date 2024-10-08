@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>62</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:30:54</sys_created_on>
+        <sys_id>a35a6dd783b01a100bf1c4d0deaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bradly Hasselvander</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_a35a6dd783b01a100bf1c4d0deaad38a</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:30:54</sys_updated_on>
+        <text>Bradly Hasselvander</text>
+        <value>Bradly Hasselvander</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=a35a6dd783b01a100bf1c4d0deaad38a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_a35a6dd783b01a100bf1c4d0deaad38a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>62</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:30:54</sys_created_on><sys_id>a35a6dd783b01a100bf1c4d0deaad38a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bradly Hasselvander</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_a35a6dd783b01a100bf1c4d0deaad38a</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:30:54</sys_updated_on><text>Bradly Hasselvander</text><value>Bradly Hasselvander</value></question_choice><fx_price action="delete_multiple" query="id=a35a6dd783b01a100bf1c4d0deaad38a"/></record_update>]]></payload>
+        <payload_hash>1696239146</payload_hash>
+        <record_name>Bradly Hasselvander</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:52:38</sys_created_on>
+        <sys_id>b95f611783741a100bf1c4d0deaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349d02ed0000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:52:38</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>7d5f611737741a1059e42394e8f31352</update_guid>
+        <update_guid_history>7d5f611737741a1059e42394e8f31352:1696239146,77bc651f61f01a103f2f885fbc33b9e9:-970428418,fbbc651fb0f01a100db17def0efa13d9:1239026241</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Bradly Hasselvander">c9b5ce2a834d12100bf1c4d0deaad345</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:36</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>026a638a3c964dd483f8fac2ce463e44</sys_id>
+        <sys_metadata>a35a6dd783b01a100bf1c4d0deaad38a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bradly Hasselvander</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_a35a6dd783b01a100bf1c4d0deaad38a</sys_update_name>
+        <sys_update_version display_value="question_choice_a35a6dd783b01a100bf1c4d0deaad38a">b95f611783741a100bf1c4d0deaad353</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

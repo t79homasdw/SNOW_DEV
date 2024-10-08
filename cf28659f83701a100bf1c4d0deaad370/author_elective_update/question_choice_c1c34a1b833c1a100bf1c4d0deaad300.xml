@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>0</order>
+        <published_ref/>
+        <question display_value="Line Manager">754ead1b83341a100bf1c4d0deaad3b4</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 19:21:52</sys_created_on>
+        <sys_id>c1c34a1b833c1a100bf1c4d0deaad300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Jason Jeffas</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_c1c34a1b833c1a100bf1c4d0deaad300</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 19:21:52</sys_updated_on>
+        <text>Jason Jeffas</text>
+        <value>26254d4b83b452100bf1c4d0deaad3dc</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=c1c34a1b833c1a100bf1c4d0deaad300"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_c1c34a1b833c1a100bf1c4d0deaad300</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>0</order><published_ref/><question display_value="Line Manager">754ead1b83341a100bf1c4d0deaad3b4</question><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 19:21:52</sys_created_on><sys_id>c1c34a1b833c1a100bf1c4d0deaad300</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Jason Jeffas</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_c1c34a1b833c1a100bf1c4d0deaad300</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 19:21:52</sys_updated_on><text>Jason Jeffas</text><value>26254d4b83b452100bf1c4d0deaad3dc</value></question_choice><fx_price action="delete_multiple" query="id=c1c34a1b833c1a100bf1c4d0deaad300"/></record_update>]]></payload>
+        <payload_hash>44912138</payload_hash>
+        <record_name>Jason Jeffas</record_name>
+        <reverted_from/>
+        <source>ff45c69b833c1a100bf1c4d0deaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 19:29:29</sys_created_on>
+        <sys_id>24858edb833c1a100bf1c4d0deaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19234f5b0580000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 19:29:29</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>28858edb493c1a106f080c11f059a012</update_guid>
+        <update_guid_history>28858edb493c1a106f080c11f059a012:44912138,60858edbe83c1a10ee67130c9b09ba10:2000804005</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Jason Jeffas">0b07ca5b837c1a100bf1c4d0deaad313</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 19:36:13</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>375e09a444a845f0a2044740914cce90</sys_id>
+        <sys_metadata>c1c34a1b833c1a100bf1c4d0deaad300</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Jason Jeffas</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Line Manager">754ead1b83341a100bf1c4d0deaad3b4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_c1c34a1b833c1a100bf1c4d0deaad300</sys_update_name>
+        <sys_update_version display_value="question_choice_c1c34a1b833c1a100bf1c4d0deaad300">24858edb833c1a100bf1c4d0deaad313</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 19:36:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

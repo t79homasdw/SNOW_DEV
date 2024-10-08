@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>282</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:31:01</sys_created_on>
+        <sys_id>056aa11b83b01a100bf1c4d0deaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Jimmie Barninger</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_056aa11b83b01a100bf1c4d0deaad358</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:31:01</sys_updated_on>
+        <text>Jimmie Barninger</text>
+        <value>Jimmie Barninger</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=056aa11b83b01a100bf1c4d0deaad358"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_056aa11b83b01a100bf1c4d0deaad358</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>282</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:31:01</sys_created_on><sys_id>056aa11b83b01a100bf1c4d0deaad358</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Jimmie Barninger</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_056aa11b83b01a100bf1c4d0deaad358</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:31:01</sys_updated_on><text>Jimmie Barninger</text><value>Jimmie Barninger</value></question_choice><fx_price action="delete_multiple" query="id=056aa11b83b01a100bf1c4d0deaad358"/></record_update>]]></payload>
+        <payload_hash>1530147219</payload_hash>
+        <record_name>Jimmie Barninger</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:53:06</sys_created_on>
+        <sys_id>347fa95783741a100bf1c4d0deaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349d72cf0000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:53:06</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>b47fa9579d741a109b9716246a3195ec</update_guid>
+        <update_guid_history>b47fa9579d741a109b9716246a3195ec:1530147219,11ac61db8bf01a102b4475aa9d37258f:1562144341,5dac61db1ff01a1028d154e51e04998b:395447331</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Jimmie Barninger">be9582e6834d12100bf1c4d0deaad36a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:10</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>7a4dccbb38dc473d983b15ef531d67d1</sys_id>
+        <sys_metadata>056aa11b83b01a100bf1c4d0deaad358</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Jimmie Barninger</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_056aa11b83b01a100bf1c4d0deaad358</sys_update_name>
+        <sys_update_version display_value="question_choice_056aa11b83b01a100bf1c4d0deaad358">347fa95783741a100bf1c4d0deaad3ed</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

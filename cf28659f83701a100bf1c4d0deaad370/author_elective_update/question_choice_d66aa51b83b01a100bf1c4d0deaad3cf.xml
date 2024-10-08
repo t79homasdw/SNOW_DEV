@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>487</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:31:05</sys_created_on>
+        <sys_id>d66aa51b83b01a100bf1c4d0deaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rebeca Brumet</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_d66aa51b83b01a100bf1c4d0deaad3cf</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:31:05</sys_updated_on>
+        <text>Rebeca Brumet</text>
+        <value>Rebeca Brumet</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=d66aa51b83b01a100bf1c4d0deaad3cf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_d66aa51b83b01a100bf1c4d0deaad3cf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>487</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:31:05</sys_created_on><sys_id>d66aa51b83b01a100bf1c4d0deaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Rebeca Brumet</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_d66aa51b83b01a100bf1c4d0deaad3cf</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:31:05</sys_updated_on><text>Rebeca Brumet</text><value>Rebeca Brumet</value></question_choice><fx_price action="delete_multiple" query="id=d66aa51b83b01a100bf1c4d0deaad3cf"/></record_update>]]></payload>
+        <payload_hash>650851542</payload_hash>
+        <record_name>Rebeca Brumet</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:53:15</sys_created_on>
+        <sys_id>fa7f619783741a100bf1c4d0deaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349d941a0000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:53:15</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>be7f6197d1741a10e9a981cf9f24aede</update_guid>
+        <update_guid_history>be7f6197d1741a10e9a981cf9f24aede:650851542,8acc6d1f94f01a10b80d5deedcb96f70:589856404,02cc6d1f04f01a10e11a71fdb27a1d55:2077926134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Rebeca Brumet">93b50a6a834d12100bf1c4d0deaad387</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:45</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>67649406898143b9b8af49b1dd3f0919</sys_id>
+        <sys_metadata>d66aa51b83b01a100bf1c4d0deaad3cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rebeca Brumet</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_d66aa51b83b01a100bf1c4d0deaad3cf</sys_update_name>
+        <sys_update_version display_value="question_choice_d66aa51b83b01a100bf1c4d0deaad3cf">fa7f619783741a100bf1c4d0deaad3df</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

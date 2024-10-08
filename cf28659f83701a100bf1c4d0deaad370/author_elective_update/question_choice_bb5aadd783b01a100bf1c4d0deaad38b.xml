@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>108</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:30:55</sys_created_on>
+        <sys_id>bb5aadd783b01a100bf1c4d0deaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Chuck Farley</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_bb5aadd783b01a100bf1c4d0deaad38b</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:30:55</sys_updated_on>
+        <text>Chuck Farley</text>
+        <value>Chuck Farley</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=bb5aadd783b01a100bf1c4d0deaad38b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_bb5aadd783b01a100bf1c4d0deaad38b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>108</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:30:55</sys_created_on><sys_id>bb5aadd783b01a100bf1c4d0deaad38b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Chuck Farley</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_bb5aadd783b01a100bf1c4d0deaad38b</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:30:55</sys_updated_on><text>Chuck Farley</text><value>Chuck Farley</value></question_choice><fx_price action="delete_multiple" query="id=bb5aadd783b01a100bf1c4d0deaad38b"/></record_update>]]></payload>
+        <payload_hash>-1039571454</payload_hash>
+        <record_name>Chuck Farley</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:53:23</sys_created_on>
+        <sys_id>b88f699783741a100bf1c4d0deaad37d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349db5570000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:53:23</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>7c8f69976c741a1011384ca4a208f47c</update_guid>
+        <update_guid_history>7c8f69976c741a1011384ca4a208f47c:-1039571454,38cc691f59f01a10919e94d8360dab48:-1958453884,3ccc691ffaf01a1006cdd683ce0edc45:-1033068556</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Chuck Farley">cab5c26a834d12100bf1c4d0deaad31b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:40</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>139fc312fc90475181fc2f8364120d99</sys_id>
+        <sys_metadata>bb5aadd783b01a100bf1c4d0deaad38b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Chuck Farley</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_bb5aadd783b01a100bf1c4d0deaad38b</sys_update_name>
+        <sys_update_version display_value="question_choice_bb5aadd783b01a100bf1c4d0deaad38b">b88f699783741a100bf1c4d0deaad37d</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

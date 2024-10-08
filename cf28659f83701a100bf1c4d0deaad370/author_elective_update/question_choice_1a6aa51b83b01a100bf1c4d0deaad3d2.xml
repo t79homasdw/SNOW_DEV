@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>490</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:31:05</sys_created_on>
+        <sys_id>1a6aa51b83b01a100bf1c4d0deaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reggie Streu</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_1a6aa51b83b01a100bf1c4d0deaad3d2</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:31:05</sys_updated_on>
+        <text>Reggie Streu</text>
+        <value>Reggie Streu</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=1a6aa51b83b01a100bf1c4d0deaad3d2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_1a6aa51b83b01a100bf1c4d0deaad3d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>490</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:31:05</sys_created_on><sys_id>1a6aa51b83b01a100bf1c4d0deaad3d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reggie Streu</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_1a6aa51b83b01a100bf1c4d0deaad3d2</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:31:05</sys_updated_on><text>Reggie Streu</text><value>Reggie Streu</value></question_choice><fx_price action="delete_multiple" query="id=1a6aa51b83b01a100bf1c4d0deaad3d2"/></record_update>]]></payload>
+        <payload_hash>446580403</payload_hash>
+        <record_name>Reggie Streu</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:52:27</sys_created_on>
+        <sys_id>cb4fa5d383741a100bf1c4d0deaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349cd8850000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:52:27</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>8f4fa5d314741a10443dbf33fcc13fe8</update_guid>
+        <update_guid_history>8f4fa5d314741a10443dbf33fcc13fe8:446580403,1aac25dbd0f01a10f0628a692278aa38:-729864267,96ac25db7df01a10944cfc36dc0fb629:1697217412</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Reggie Streu">ef9586e6834d12100bf1c4d0deaad345</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:13</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>42a73db0ffa248f39818032edfb11939</sys_id>
+        <sys_metadata>1a6aa51b83b01a100bf1c4d0deaad3d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reggie Streu</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_1a6aa51b83b01a100bf1c4d0deaad3d2</sys_update_name>
+        <sys_update_version display_value="question_choice_1a6aa51b83b01a100bf1c4d0deaad3d2">cb4fa5d383741a100bf1c4d0deaad3e9</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

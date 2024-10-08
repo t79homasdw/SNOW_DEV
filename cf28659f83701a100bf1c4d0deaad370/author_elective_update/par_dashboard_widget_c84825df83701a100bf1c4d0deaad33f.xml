@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">084825df83701a100bf1c4d0deaad313</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"md","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"colorConfig":{"type":"default"},"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Private SSL Request","sourceType":"table","tableOrViewName":"x_1541301_privat_0_request","filterQuery":"active=true^assigned_toISEMPTY","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2FhX3Rlc3RfYXBwXzFfcmVxdWVzdDE3MDAxNDkwMTkxOTM=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Unassigned Open Requests","headingLevel":2,"description":"","showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4X2FhX3Rlc3RfYXBwXzFfcmVxdWVzdDE3MDAxNDkwMTkxOTM=","id":"ZEdGaWJHVjRYMkZoWDNSbGMzUmZZWEJ3WHpGZmNtVnhkV1Z6ZERFM01EQXhORGt3TVRreE9UTT0xNzAwMTQ5MDIwMzA2","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"enableCustomEmptyState":false,"componentId":"dee19bvq","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"filterConfigurations":"@state.parFilters","contextMenuActions":[],"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","noDebounce":""}</component_props>
+        <h>12</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:21:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c84825df83701a100bf1c4d0deaad33f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>par_dashboard_widget_c84825df83701a100bf1c4d0deaad33f</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:21:40</sys_updated_on>
+        <visualization/>
+        <w>16</w>
+        <widget_props/>
+        <x>16</x>
+        <y>3</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>par_dashboard_widget_c84825df83701a100bf1c4d0deaad33f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">084825df83701a100bf1c4d0deaad313</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"md","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"colorConfig":{"type":"default"},"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Private SSL Request","sourceType":"table","tableOrViewName":"x_1541301_privat_0_request","filterQuery":"active=true^assigned_toISEMPTY","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2FhX3Rlc3RfYXBwXzFfcmVxdWVzdDE3MDAxNDkwMTkxOTM=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Unassigned Open Requests","headingLevel":2,"description":"","showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4X2FhX3Rlc3RfYXBwXzFfcmVxdWVzdDE3MDAxNDkwMTkxOTM=","id":"ZEdGaWJHVjRYMkZoWDNSbGMzUmZZWEJ3WHpGZmNtVnhkV1Z6ZERFM01EQXhORGt3TVRreE9UTT0xNzAwMTQ5MDIwMzA2","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"enableCustomEmptyState":false,"componentId":"dee19bvq","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"filterConfigurations":"@state.parFilters","contextMenuActions":[],"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","noDebounce":""}</component_props><h>12</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:21:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c84825df83701a100bf1c4d0deaad33f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>par_dashboard_widget_c84825df83701a100bf1c4d0deaad33f</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:21:40</sys_updated_on><visualization/><w>16</w><widget_props/><x>16</x><y>3</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>4808754</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>4f28659f83701a100bf1c4d0deaad3e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:21:40</sys_created_on>
+        <sys_id>8c4825df83701a100bf1c4d0deaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1923480aa110000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:21:40</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>404825df1f701a10db36af3511979e41</update_guid>
+        <update_guid_history>404825df1f701a10db36af3511979e41:4808754</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">544825df83701a100bf1c4d0deaad397</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:21:40</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>81e9c64fdc804b2ca9fb3c222b6c5b04</sys_id>
+        <sys_metadata>c84825df83701a100bf1c4d0deaad33f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_c84825df83701a100bf1c4d0deaad33f</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_c84825df83701a100bf1c4d0deaad33f">8c4825df83701a100bf1c4d0deaad341</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:21:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

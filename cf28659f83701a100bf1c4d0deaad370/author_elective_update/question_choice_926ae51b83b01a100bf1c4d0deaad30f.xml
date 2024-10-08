@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>499</order>
+        <published_ref/>
+        <question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:31:05</sys_created_on>
+        <sys_id>926ae51b83b01a100bf1c4d0deaad30f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reva Lecates</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>question_choice_926ae51b83b01a100bf1c4d0deaad30f</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:31:05</sys_updated_on>
+        <text>Reva Lecates</text>
+        <value>Reva Lecates</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=926ae51b83b01a100bf1c4d0deaad30f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>question_choice_926ae51b83b01a100bf1c4d0deaad30f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>499</order><published_ref/><question display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>dthomas</sys_created_by><sys_created_on>2024-09-27 17:31:05</sys_created_on><sys_id>926ae51b83b01a100bf1c4d0deaad30f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reva Lecates</sys_name><sys_package/><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>question_choice_926ae51b83b01a100bf1c4d0deaad30f</sys_update_name><sys_updated_by>dthomas</sys_updated_by><sys_updated_on>2024-09-27 17:31:05</sys_updated_on><text>Reva Lecates</text><value>Reva Lecates</value></question_choice><fx_price action="delete_multiple" query="id=926ae51b83b01a100bf1c4d0deaad30f"/></record_update>]]></payload>
+        <payload_hash>77702741</payload_hash>
+        <record_name>Reva Lecates</record_name>
+        <reverted_from/>
+        <source>c44f215383741a100bf1c4d0deaad374</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-09-27 17:52:55</sys_created_on>
+        <sys_id>026f215783741a100bf1c4d0deaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192349d479a0000001</sys_recorded_at>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-09-27 17:52:55</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>c26f215726741a109fcea901a8e1fde2</update_guid>
+        <update_guid_history>c26f215726741a109fcea901a8e1fde2:77702741,5bbc251fcbf01a10377a2b3cce86a955:-1356848105,97bc251fcbf01a104436e90a01d44352:-608782593</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Reva Lecates">ecb50e2a834d12100bf1c4d0deaad34e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-07 21:50:33</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>28d217f0213c42c39baffa1c58e69831</sys_id>
+        <sys_metadata>926ae51b83b01a100bf1c4d0deaad30f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reva Lecates</sys_name>
+        <sys_package/>
+        <sys_parent display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>question_choice_926ae51b83b01a100bf1c4d0deaad30f</sys_update_name>
+        <sys_update_version display_value="question_choice_926ae51b83b01a100bf1c4d0deaad30f">026f215783741a100bf1c4d0deaad3e3</sys_update_version>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-07 21:50:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
