@@ -17,8 +17,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path/>
-        <dynamic_value_field/>
+        <dynamic_value_dot_walk_path>manager.name</dynamic_value_dot_walk_path>
+        <dynamic_value_field display_value="Requested For">6478a9df83701a100bf1c4d0deaad35b</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
@@ -58,7 +58,7 @@
         <reference>sys_user</reference>
         <reference_qual/>
         <reference_qual_condition/>
-        <rich_text><![CDATA[Line Manager]]></rich_text>
+        <rich_text><![CDATA[<p>Line Manager</p>]]></rich_text>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
 * `current`- GlideRecord produced by Record Producer
@@ -77,17 +77,17 @@
         <sys_created_by>dthomas</sys_created_by>
         <sys_created_on>2024-09-27 17:47:59</sys_created_on>
         <sys_id>754ead1b83341a100bf1c4d0deaad3b4</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Line Manager</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
         <sys_update_name>item_option_new_754ead1b83341a100bf1c4d0deaad3b4</sys_update_name>
-        <sys_updated_by>dthomas</sys_updated_by>
-        <sys_updated_on>2024-09-27 19:34:55</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 02:10:03</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>5</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
