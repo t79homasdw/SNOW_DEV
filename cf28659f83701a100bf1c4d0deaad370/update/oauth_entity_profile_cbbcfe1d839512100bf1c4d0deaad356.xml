@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>dev209030 default_profile</name>
+        <oauth_entity display_value="dev209030">a74c3a9d839512100bf1c4d0deaad348</oauth_entity>
+        <saml2_assertion_producer/>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 14:54:19</sys_created_on>
+        <sys_id>cbbcfe1d839512100bf1c4d0deaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dev209030 default_profile</sys_name>
+        <sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>oauth_entity_profile_cbbcfe1d839512100bf1c4d0deaad356</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 14:54:19</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>
