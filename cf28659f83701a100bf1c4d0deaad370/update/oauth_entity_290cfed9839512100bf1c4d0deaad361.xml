@@ -6,10 +6,10 @@
         <auth_code_lifespan>60</auth_code_lifespan>
         <auth_url/>
         <certificate_url/>
-        <client_id>8b75f4c2a2fc449fbc4be642e6f8053f</client_id>
-        <client_secret>﷞﷟﷒37eba60493b812102bb833018bba10ce﷬﷔1﷬﷭O8DUJvQCY7ZcxZyQUSG-QQ==fuKwe4-M3bD67LP_vKsbw2PPUCUBu-asqK5q3RPKmbmyaOzomg==﷮﷯</client_secret>
+        <client_id>bb997c208a7046ae92c7432eb85493c5</client_id>
+        <client_secret>﷞﷟﷒37eba60493b812102bb833018bba10ce﷬﷔1﷬﷭vlpm_EPb_8ekPel3kKzxOw==QWT4ycCSxKNfclTZHlyIgns_rKeuRyT2kSt2Rz7MJgYo-js58w==﷮﷯</client_secret>
         <client_type/>
-        <client_uuid>48df226483851a100bf1c4d0deaad3ad</client_uuid>
+        <client_uuid>e50cfed9839512100bf1c4d0deaad361</client_uuid>
         <code_challenge_method>S256</code_challenge_method>
         <comments/>
         <default_grant_type>password</default_grant_type>
@@ -19,7 +19,7 @@
         <logo_url/>
         <message_signature_lifespan>60</message_signature_lifespan>
         <mobile_client>false</mobile_client>
-        <name>PipeLine Controller Client</name>
+        <name>PipeLine Controller dev209030</name>
         <oauth_api_script/>
         <protocol_name/>
         <public_client>false</public_client>
@@ -33,16 +33,16 @@
         <skip_authorize>false</skip_authorize>
         <sys_class_name>oauth_entity</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-01 19:48:16</sys_created_on>
-        <sys_id>88df226483851a100bf1c4d0deaad3ad</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>PipeLine Controller Client</sys_name>
+        <sys_created_on>2024-10-16 14:52:08</sys_created_on>
+        <sys_id>290cfed9839512100bf1c4d0deaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PipeLine Controller dev209030</sys_name>
         <sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package>
         <sys_policy/>
         <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
-        <sys_update_name>oauth_entity_88df226483851a100bf1c4d0deaad3ad</sys_update_name>
+        <sys_update_name>oauth_entity_290cfed9839512100bf1c4d0deaad361</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 15:01:28</sys_updated_on>
+        <sys_updated_on>2024-10-16 14:52:08</sys_updated_on>
         <token_url/>
         <type>client</type>
         <use_mutual_auth>false</use_mutual_auth>
