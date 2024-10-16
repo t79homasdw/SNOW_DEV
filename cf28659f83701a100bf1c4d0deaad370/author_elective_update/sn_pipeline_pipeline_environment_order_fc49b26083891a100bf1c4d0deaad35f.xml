@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_pipeline_environment_order">
+    <sn_pipeline_pipeline_environment_order action="DELETE">
+        <environment display_value="dev209030">b15d82d383305a100bf1c4d0deaad3e4</environment>
+        <order>100</order>
+        <pipeline display_value="Private_SSL">614e421783305a100bf1c4d0deaad392</pipeline>
+        <sys_class_name>sn_pipeline_pipeline_environment_order</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:28:15</sys_created_on>
+        <sys_id>fc49b26083891a100bf1c4d0deaad35f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>sn_pipeline_pipeline_environment_order_fc49b26083891a100bf1c4d0deaad35f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:28:15</sys_updated_on>
+    </sn_pipeline_pipeline_environment_order>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</application>
+        <file_path/>
+        <instance_id>f9c67e4f1bdab510c84543f4bd4bcbdb</instance_id>
+        <instance_name>dev209030</instance_name>
+        <name>sn_pipeline_pipeline_environment_order_fc49b26083891a100bf1c4d0deaad35f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_pipeline_environment_order"><sn_pipeline_pipeline_environment_order action="INSERT_OR_UPDATE"><environment display_value="dev209030">b15d82d383305a100bf1c4d0deaad3e4</environment><order>100</order><pipeline display_value="Private_SSL">614e421783305a100bf1c4d0deaad392</pipeline><sys_class_name>sn_pipeline_pipeline_environment_order</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-01 20:28:15</sys_created_on><sys_id>fc49b26083891a100bf1c4d0deaad35f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package><sys_policy/><sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope><sys_update_name>sn_pipeline_pipeline_environment_order_fc49b26083891a100bf1c4d0deaad35f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-01 20:28:15</sys_updated_on></sn_pipeline_pipeline_environment_order></record_update>]]></payload>
+        <payload_hash>-487948810</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>4f28659f83701a100bf1c4d0deaad3e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:28:15</sys_created_on>
+        <sys_id>9059beac83491a100bf1c4d0deaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19249c4edc70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:28:15</sys_updated_on>
+        <type>Pipeline Environment Order</type>
+        <update_guid>5459beac93491a1095cc85ce84af657e</update_guid>
+        <update_guid_history>5459beac93491a1095cc85ce84af657e:-487948810</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1c400351831912100bf1c4d0deaad38e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 15:09:42</sys_created_on>
+        <sys_db_object display_value="" name="sn_pipeline_pipeline_environment_order">sn_pipeline_pipeline_environment_order</sys_db_object>
+        <sys_id>165c82dcb542441c832b954ee2a58124</sys_id>
+        <sys_metadata>fc49b26083891a100bf1c4d0deaad35f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_scope_delete display_value="">0fff88328ab74f0b813c7663057cc5e1</sys_scope_delete>
+        <sys_update_name>sn_pipeline_pipeline_environment_order_fc49b26083891a100bf1c4d0deaad35f</sys_update_name>
+        <sys_update_version display_value="sn_pipeline_pipeline_environment_order_fc49b26083891a100bf1c4d0deaad35f">9059beac83491a100bf1c4d0deaad37f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 15:09:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
