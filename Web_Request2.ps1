@@ -67,7 +67,8 @@ certreq -new -q -config "AMIS-DWCDC001.archgrouptest.io\archgrouptest-AMIS-DWCDC
 certreq -submit -config "AMIS-DWCDC001.archgrouptest.io\archgrouptest-AMIS-DWCDC001-CA" certreq.req $r_path $k_path
 $cert = Import-Certificate -FilePath $r_path -CertStoreLocation Cert:\LocalMachine\My
 $CertFile = "C:\Cert_Config\Cert_Passwd.txt"
-$cert_content = Get-Content $CertFile
+
+$cert_content = (Get-Content $CertFile)
 $mypwd = ConvertTo-SecureString $cert_content
 $thumb = $cert.Thumbprint
 
