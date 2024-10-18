@@ -6,7 +6,6 @@ on:
 
 jobs:
   build:
-    Name: Build_Cert
     runs-on: windows-latest
 
     steps:
