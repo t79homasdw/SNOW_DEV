@@ -15,4 +15,4 @@ jobs:
     - name: Run PowerShell script
       shell: powershell
       run: |
-        .\Web_Request2.ps1
+        C:\Cert_Config\Web_Request2.ps1
