@@ -1,8 +1,8 @@
-﻿param(
+<#﻿param(
     [string]$sub,
     [string]$fn,
     [string]$sans_input
-)
+)#>
 
 copy-item -path "C:\Cert_Config\root.crt" -Destination C:\Certreq -Force
 $path = "C:\Certreq\requestconfig.inf"
