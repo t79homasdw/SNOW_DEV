@@ -1,3 +1,5 @@
+Remove-Item -Path "C:\Certreq\*" -Recurse -Force -ErrorAction SilentlyContinue
+
 <#﻿param(
     [string]$sub,
     [string]$fn,
@@ -6,6 +8,7 @@
 
 copy-item -path "C:\Cert_Config\root.crt" -Destination C:\Certreq -Force
 $path = "C:\Certreq\requestconfig.inf"
+
 
 $sub = "www.wildfire.com"
 $fn = "Wildfire"
@@ -78,6 +81,7 @@ $params1 = @{
     ChainOption = 'BuildChain'
     NoProperties = $false
     Password = $mypwd
+    Force = $true
 }
 
 Export-PfxCertificate @params1
