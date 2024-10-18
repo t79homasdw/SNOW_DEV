@@ -9,7 +9,7 @@ $path = "C:\Certreq\requestconfig.inf"
 
 $sub = "www.wildfire.com"
 $fn = "Wildfire"
-$sans_input = "www.arch.com, www.buttler.com, www.fieldtype.com, www.beanbag.com"
+$sans_input = "www.arch.com", www.buttler.com", www.fieldtype.com", "www.beanbag.com"
 $email_chain = "amis-domainhybridteam_corp@archgroup.com"
 
 $subject = $sub -replace(' ')
