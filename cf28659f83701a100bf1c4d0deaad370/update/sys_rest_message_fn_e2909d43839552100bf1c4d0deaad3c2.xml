@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="GitHub">60522d3583d912100bf1c4d0deaad3b4</basic_auth_profile>
+        <basic_auth_user/>
+        <content>{&#13;
+    "event_type": "reviewAutomation",&#13;
+    "client_payload": {&#13;
+        "resources": [&#13;
+            {&#13;
+                "resource_type": "Certificate",&#13;
+                "details": {}&#13;
+            }&#13;
+        ],&#13;
+        "task_details": {},&#13;
+        "ritm_details": {&#13;
+            "ritm_sysid": ""&#13;
+        }&#13;
+    }&#13;
+}&#13;
+</content>
+        <function_name>repository-dispatch-deployment</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>GitHub [ repository-dispatch-deployment ]</qualified_name>
+        <rest_endpoint>https://api.github.com/repos/t79homasdw/SNOW_DEV/dispatches</rest_endpoint>
+        <rest_message display_value="GitHub">64f1253583d912100bf1c4d0deaad35c</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>dthomas</sys_created_by>
+        <sys_created_on>2024-10-21 17:32:51</sys_created_on>
+        <sys_id>e2909d43839552100bf1c4d0deaad3c2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>repository-dispatch-deployment</sys_name>
+        <sys_package display_value="Private SSL" source="x_1541301_privat_0">cf28659f83701a100bf1c4d0deaad370</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Private SSL">cf28659f83701a100bf1c4d0deaad370</sys_scope>
+        <sys_update_name>sys_rest_message_fn_e2909d43839552100bf1c4d0deaad3c2</sys_update_name>
+        <sys_updated_by>dthomas</sys_updated_by>
+        <sys_updated_on>2024-10-22 21:30:20</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>
