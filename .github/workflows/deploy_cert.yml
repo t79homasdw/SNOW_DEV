@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: [self-hosted, windows, x64, "${{ github.run_id }}"]
+    runs-on: [self-hosted, windows, x64]
 
 env:
   payload: ${{ toJSON(github.event.client_payload) }}
