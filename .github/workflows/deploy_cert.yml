@@ -1,11 +1,11 @@
 name: Run PowerShell Script
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-    workflow_dispatch:
 
 jobs:
   build:
