@@ -7,15 +7,53 @@ on:
   pull_request:
       branches: [ main ]
 
-
+    env:
+      PAYLOAD: ${{toJSON(github.event.client_payload)}}
+      TASK_ID: ${{toJSON(github.event.client_payload.task_details.sysid)}}
+      SNOW_USER: ${{ secrets.SERVICENOW_USERNAME }}
+      SNOW_PASSWORD: ${{ secrets.SERVICENOW_PASSWORD }}
+      ARM_USE_MSI: true
 jobs:
   build:
     runs-on: [self-hosted, windows, x64]
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+steps:
+    - name: Get Branch Name
+        id: get-branch-name
+        run: |
+          BRANCH_NAME="${{ toJSON(github.event.client_payload.ritm_details.number) }}"
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+ 
+    - name: Get Certificate Subject
+        id: get-cert-subject
+        run: |
+          cert_subject="${{ toJSON(github.event.client_payload.additional_details.subject) }}"
+          echo "Certificate_Subject=$cert_subject" >> $GITHUB_OUTPUT
 
-    - name: Run PowerShell script
+    - name: Get Friendly Name
+        id: get-fn
+        run: |
+          fn="${{ toJSON(github.event.client_payload.additional_details.fn) }}"
+          echo "Friendly_Name=$fn" >> $GITHUB_OUTPUT
+
+    - name: Get Subject Alternative Names
+        id: get-sans
+        run: |
+          sans="${{ toJSON(github.event.client_payload.additional_details.sans) }}"
+          echo "Subject_Alternative_Names=$sans" >> $GITHUB_OUTPUT
+
+    - name: Email_List
+        id: get-email
+        run: |
+          sans="${{ toJSON(github.event.client_payload.additional_details.email) }}"
+          echo "Email_List=$email" >> $GITHUB_OUTPUT
+
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run PowerShell script with Payload
       shell: powershell
-      run: |
-        ./Web_Request2.ps1
+      run: | 
+        ./Web_Request2.ps1 -sub ${{ steps.get-branch-name.outputs.cert_subject }} -fn ${{ steps.get-branch-name.outputs.fn }} -sans_input ${{ steps.get-branch-name.outputs.sans }} -email ${{ steps.get-branch-name.outputs.email }}
