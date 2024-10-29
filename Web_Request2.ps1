@@ -3,7 +3,7 @@ Remove-Item -Path "C:\Certreq\*" -Recurse -Force -ErrorAction SilentlyContinue
 ﻿param(
     [string]$sub,
     [string]$fn,
-    [string]$sans_input
+    [string]$sans_input,
     [string]$email
 )
 
