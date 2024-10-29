@@ -1,4 +1,4 @@
-name: Run PowerShell Script
+|name: Run PowerShell Script
 
 on:
   repository_dispatch:
@@ -21,32 +21,27 @@ jobs:
 steps:
     - name: Get Branch Name
         id: get-branch-name
-        run: | 
-          BRANCH_NAME="${{ toJSON(github.event.client_payload.ritm_details.number) }}"
+        run: BRANCH_NAME="${{ toJSON(github.event.client_payload.ritm_details.number) }}"
           echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
  
     - name: Get Certificate Subject
         id: get-cert-subject
-        run: | 
-          cert_subject="${{ toJSON(github.event.client_payload.additional_details.subject) }}"
+        run: cert_subject="${{ toJSON(github.event.client_payload.additional_details.subject) }}"
           echo "Certificate_Subject=$cert_subject" >> $GITHUB_OUTPUT
 
     - name: Get Friendly Name
         id: get-fn
-        run: | 
-          fn="${{ toJSON(github.event.client_payload.additional_details.fn) }}"
+        run: fn="${{ toJSON(github.event.client_payload.additional_details.fn) }}"
           echo "Friendly_Name=$fn" >> $GITHUB_OUTPUT
 
     - name: Get Subject Alternative Names
         id: get-sans
-        run: | 
-          sans="${{ toJSON(github.event.client_payload.additional_details.sans) }}"
+        run: sans="${{ toJSON(github.event.client_payload.additional_details.sans) }}"
           echo "Subject_Alternative_Names=$sans" >> $GITHUB_OUTPUT
 
     - name: Email_List
         id: get-email
-        run: | 
-          sans="${{ toJSON(github.event.client_payload.additional_details.email) }}"
+        run: sans="${{ toJSON(github.event.client_payload.additional_details.email) }}"
           echo "Email_List=$email" >> $GITHUB_OUTPUT
 
     - name: Checkout code
