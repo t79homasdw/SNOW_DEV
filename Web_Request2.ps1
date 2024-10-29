@@ -1,10 +1,11 @@
 Remove-Item -Path "C:\Certreq\*" -Recurse -Force -ErrorAction SilentlyContinue
 
-<#﻿param(
+﻿param(
     [string]$sub,
     [string]$fn,
     [string]$sans_input
-)#>
+    [string]$email
+)
 
 copy-item -path "C:\Cert_Config\root.crt" -Destination C:\Certreq -Force
 $path = "C:\Certreq\requestconfig.inf"
