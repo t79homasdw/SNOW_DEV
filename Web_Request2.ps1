@@ -10,11 +10,12 @@ Remove-Item -Path "C:\Certreq\*" -Recurse -Force -ErrorAction SilentlyContinue
 copy-item -path "C:\Cert_Config\root.crt" -Destination C:\Certreq -Force
 $path = "C:\Certreq\requestconfig.inf"
 
-
+<#
 $sub = "www.archgroup.com"
 $fn = "Wildfire"
 $sans_input = "www.arch.com,www.buttler.com,www.fieldtype.com,www.beanbag.com"
 $email_chain = "amis-domainhybridteam_corp@archgroup.com,dthomas@archgroup.com"
+#>
 
 $subject = $sub -replace(' ')
 $fname = $fn -replace(' ')
