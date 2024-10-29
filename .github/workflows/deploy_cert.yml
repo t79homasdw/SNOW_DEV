@@ -7,10 +7,6 @@ on:
   pull_request:
     branches: [ main ]
 
-jobs:
-  build:
-    runs-on: [self-hosted, windows, x64]
-
 env:
   payload: ${{ toJSON(github.event.client_payload) }}
   business_unit: ${{ github.event.client_payload.additional_details.entity }}
@@ -22,15 +18,18 @@ env:
   snow_instance: ${{ github.event.client_payload.instance }}
   ANSIBLE_FORCE_COLOR: '1'
 
+jobs:
+  build:
+    runs-on: [self-hosted, windows, x64]
+    
     steps:
-      - name: Echo out the input variables
-        run: |
-          echo "client_payload: ${{ env.payload }}"
-
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - name: Run PowerShell script
-      shell: powershell
-      run: | 
+      -name: Echo out the input variables
+      run: |
+        echo "client_payload: ${{ env.payload }}"
+        -name: Checkout code
+        uses: actions/checkout@v2
+        
+        - name: Run PowerShell script
+        shell: powershell
+        run: | 
         ./Web_Request2.ps1 -sub ${{ env.cert_subject }} -fn ${{ env.fn }} -sans_input ${{ env.sans }} -email ${{ env.email }}
