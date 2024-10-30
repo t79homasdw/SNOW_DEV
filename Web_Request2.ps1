@@ -3,6 +3,7 @@ param(
     [string]$fn,
     [string]$sans_input,
     [string]$email
+    [string]$ritm
     )
 
 Remove-Item -Path "C:\Certreq\*" -Recurse -Force -ErrorAction SilentlyContinue
@@ -94,10 +95,11 @@ Remove-Item -Path "C:\Certreq\requestconfig.inf" -force -ErrorAction SilentlyCon
 Remove-Item -Path "C:\Certreq\certreq.req" -force -ErrorAction SilentlyContinue
 Remove-Item -Path $response -force -ErrorAction SilentlyContinue
 
+mkdir "c:\Certreq\$ritm"
 $7zipPath = "$env:ProgramFiles\7-Zip\7z.exe"
 Set-Alias Start-SevenZip $7zipPath
 $Source = "c:\Certreq\*.*"
-$Target = "C:\Cert_Out\" + $f_name2 + ".zip"
+$Target = "C:\Cert_Out\" + $ritm + "\" + $f_name2 + ".zip"
 Start-SevenZip a -mx=9 $Target $Source
 
 Remove-Item -Path "C:\Certreq\*" -Recurse -Force -ErrorAction SilentlyContinue
