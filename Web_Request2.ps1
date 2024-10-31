@@ -113,24 +113,22 @@ $File = "C:\Cert_Config\Email_Passwd.txt"
 $email_pass = Get-Content $File
 $pass = $email_pass | ConvertTo-SecureString
 $cred=New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $User,$pass
-$body= "Congratulations Here is the certificate that you requested."
 
-<#
 $EmailTo = $email
 $EmailFrom = $User
 $Subject = $f_subject
-$Body = "Congratulations Here is the certificate that you requested"
+$body= "Congratulations Here is the certificate that you requested."
 $SMTPServer = “smtp.mailersend.net"
 $filenameAndPath = $Target
-$SMTPMessage = New-Object System.Net.Mail.MailMessage($EmailFrom,$EmailTo,$Subject,$Body)
+$SMTPMessage = New-Object System.Net.Mail.MailMessage($EmailFrom,$EmailTo,$Subject,$body)
 $attachment = New-Object System.Net.Mail.Attachment($filenameAndPath)
 $SMTPMessage.Attachments.Add($attachment)
 $SMTPClient = New-Object Net.Mail.SmtpClient($SMTPServer, 587)
 $SMTPClient.EnableSsl = $true
 $SMTPClient.Credentials = New-Object System.Net.NetworkCredential($cred.UserName,$pass);
 $SMTPClient.Send($SMTPMessage)
-#>
 
+<#
 $sendMailMessageSplat = @{
     From = $User
     To = $email
@@ -144,4 +142,4 @@ $sendMailMessageSplat = @{
     Port = 587
 }
 Send-MailMessage @sendMailMessageSplat
-
+#>
