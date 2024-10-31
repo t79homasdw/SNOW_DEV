@@ -110,7 +110,9 @@ cd C:\Cert_Config
 
 $User = "MS_u2a49d@trial-z3m5jgrwnmoldpyo.mlsender.net"
 $File = "C:\Cert_Config\Email_Passwd.txt"
-$cred=New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $User, (Get-Content $File | ConvertTo-SecureString)
+$email_pass = Get-Content $File
+$pass = $email_pass | ConvertTo-SecureString
+$cred=New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $User,$pass
 $EmailTo = $email
 $EmailFrom = $User
 $Subject = $f_subject
@@ -122,7 +124,7 @@ $attachment = New-Object System.Net.Mail.Attachment($filenameAndPath)
 $SMTPMessage.Attachments.Add($attachment)
 $SMTPClient = New-Object Net.Mail.SmtpClient($SMTPServer, 587)
 $SMTPClient.EnableSsl = $true
-$SMTPClient.Credentials = New-Object System.Net.NetworkCredential($cred.UserName, (Get-Content $File | ConvertTo-SecureString));
+$SMTPClient.Credentials = New-Object System.Net.NetworkCredential($cred.UserName,$pass);
 $SMTPClient.Send($SMTPMessage)
 
 <#
