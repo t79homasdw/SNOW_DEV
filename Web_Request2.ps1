@@ -111,7 +111,7 @@ cd C:\Cert_Config
 $User = "MS_u2a49d@trial-z3m5jgrwnmoldpyo.mlsender.net"
 $File = "C:\Cert_Config\Email_Passwd.txt"
 $cred=New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $User, (Get-Content $File | ConvertTo-SecureString)
-$EmailTo = $email_chain
+$EmailTo = $email
 $EmailFrom = $User
 $Subject = $f_subject
 $Body = "Congratulations Here is the certificate that you requested."
