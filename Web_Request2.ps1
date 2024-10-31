@@ -106,17 +106,16 @@ Remove-Item -Path "C:\Certreq\*" -Recurse -Force -ErrorAction SilentlyContinue
 
 cd C:\Cert_Config
 
-<#
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-$User = "svc.goanywhere@archcapservices.com"
+$User = "MS_u2a49d@trial-z3m5jgrwnmoldpyo.mlsender.net"
 $File = "C:\Cert_Config\Email_Passwd.txt"
 $cred=New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $User, (Get-Content $File | ConvertTo-SecureString)
 $EmailTo = $email_chain
 $EmailFrom = $User
 $Subject = $f_subject
 $Body = "Congratulations Here is the certificate that you requested."
-$SMTPServer = “smtp.office365.com"
+$SMTPServer = “smtp.mailersend.net"
 $filenameAndPath = $Target
 $SMTPMessage = New-Object System.Net.Mail.MailMessage($EmailFrom,$EmailTo,$Subject,$Body)
 $attachment = New-Object System.Net.Mail.Attachment($filenameAndPath)
@@ -126,7 +125,7 @@ $SMTPClient.EnableSsl = $true
 $SMTPClient.Credentials = New-Object System.Net.NetworkCredential($cred.UserName, (Get-Content $File | ConvertTo-SecureString));
 $SMTPClient.Send($SMTPMessage)
 
-
+<#
 $sendMailMessageSplat = @{
     From = $User
     To = $email_chain
