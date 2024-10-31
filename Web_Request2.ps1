@@ -105,7 +105,8 @@ Start-SevenZip a -mx=9 $Target $Source
 Remove-Item -Path "C:\Certreq\*" -Recurse -Force -ErrorAction SilentlyContinue
 
 cd C:\Cert_Config
-
+<#
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $User = "MS_u2a49d@trial-z3m5jgrwnmoldpyo.mlsender.net"
 $File = "C:\Cert_Config\Email_Passwd.txt"
 $email_pass = Get-Content $File
@@ -127,7 +128,7 @@ $SMTPClient.EnableSsl = $true
 $SMTPClient.Credentials = New-Object System.Net.NetworkCredential($cred.UserName,$pass);
 $SMTPClient.Send($SMTPMessage)
 
-<#
+
 $sendMailMessageSplat = @{
     From = $User
     To = $email
