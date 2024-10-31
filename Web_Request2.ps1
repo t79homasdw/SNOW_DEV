@@ -112,7 +112,7 @@ $File = "C:\Cert_Config\Email_Passwd.txt"
 $email_pass = Get-Content $File
 $pass = $email_pass | ConvertTo-SecureString
 $cred=New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $User,$pass
-$e_sub = "New Certificate" + $f_name2
+$e_sub = "New Certificate " + $f_name2
 
 $EmailTo = $email
 $EmailFrom = $User
