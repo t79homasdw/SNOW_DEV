@@ -114,13 +114,14 @@ $email_pass = Get-Content $File
 $pass = $email_pass | ConvertTo-SecureString
 $cred=New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $User,$pass
 
+
 $EmailTo = $email
 $EmailFrom = $User
 $Subject = $f_subject
 $body= "Congratulations Here is the certificate that you requested."
-$SMTPServer = “smtp.mailersend.net"
+$smtpserver = "smtp.mailersend.net"
 $filenameAndPath = $Target
-$SMTPMessage = New-Object System.Net.Mail.MailMessage($EmailFrom,$EmailTo,$Subject,$body)
+$smtpmessage = New-Object System.Net.Mail.MailMessage($EmailFrom,$EmailTo,$Subject,$body)
 $attachment = New-Object System.Net.Mail.Attachment($filenameAndPath)
 $SMTPMessage.Attachments.Add($attachment)
 $SMTPClient = New-Object Net.Mail.SmtpClient($SMTPServer, 587)
