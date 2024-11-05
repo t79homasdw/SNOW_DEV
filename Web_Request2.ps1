@@ -23,6 +23,7 @@ $sans1 = $sans_input -replace(' ')
 $sans = $sans1.Split(",")
 
 $f_name2 = $sub.replace('.','_')
+$f_name3 = $sub.replace('.','-')
 $res = $f_name2 + ".crt"
 $key = $f_name2 + ".key"
 $r_path = "C:\CertReq\" + $res
@@ -94,6 +95,8 @@ $response = "C:\Certreq\" + $f_name2 + ".rsp"
 Remove-Item -Path "C:\Certreq\requestconfig.inf" -force -ErrorAction SilentlyContinue
 Remove-Item -Path "C:\Certreq\certreq.req" -force -ErrorAction SilentlyContinue
 Remove-Item -Path $response -force -ErrorAction SilentlyContinue
+
+Import-AzKeyVaultCertificate -VaultName acsuse2dthomasdv01 -Name $f_name3 -FilePath $p_file -Password $mypwd
 
 mkdir "c:\Certreq\$ritm"
 $7zipPath = "$env:ProgramFiles\7-Zip\7z.exe"
