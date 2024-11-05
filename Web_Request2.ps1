@@ -96,6 +96,7 @@ Remove-Item -Path "C:\Certreq\requestconfig.inf" -force -ErrorAction SilentlyCon
 Remove-Item -Path "C:\Certreq\certreq.req" -force -ErrorAction SilentlyContinue
 Remove-Item -Path $response -force -ErrorAction SilentlyContinue
 
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Import-AzKeyVaultCertificate -VaultName acsuse2dthomasdv01 -Name $f_name3 -FilePath $p_file -Password $mypwd
 
 mkdir "c:\Certreq\$ritm"
@@ -109,7 +110,6 @@ Remove-Item -Path "C:\Certreq\*" -Recurse -Force -ErrorAction SilentlyContinue
 
 cd C:\Cert_Config
 
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $User = "MS_u2a49d@trial-z3m5jgrwnmoldpyo.mlsender.net"
 $File = "C:\Cert_Config\Email_Passwd.txt"
 $email_pass = Get-Content $File
