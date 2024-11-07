@@ -32,7 +32,7 @@ $k_path = "C:\CertReq\" + $key
 $rsp = "C:\CertReq\" + $f_name2 + ".rsp"
 
 $f_subject = 'Subject = "CN=' + $subject + '"'
-$f_name = 'FriendlyName = "' + $fname + '"'
+$f_name = 'FriendlyName = "' + $ritm + "_"  + $fname + '"'
 
 #Build out requestconfig.inf
 Remove-Item -Path $path -Force -ErrorAction SilentlyContinue
