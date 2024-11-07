@@ -24,6 +24,7 @@ $sans = $sans1.Split(",")
 
 $f_name2 = $sub.replace('.','_')
 $f_name3 = $sub.replace('.','-')
+$f_name3 = $f_name3 + '-' + $ritm
 $res = $f_name2 + ".crt"
 $key = $f_name2 + ".key"
 $r_path = "C:\CertReq\" + $res
